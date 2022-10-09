@@ -1,7 +1,6 @@
 from typing import List
 
 def merge_sort(data):
-    print("Splitting ",data)
     if len(data)>1:
         mid = len(data)//2
         lefthalf = data[:mid]
